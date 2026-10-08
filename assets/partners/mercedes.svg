@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 48" fill="none">
+  <g transform="translate(0, 4)">
+    <!-- Mercedes 3-point star -->
+    <circle cx="20" cy="20" r="18" stroke="#333333" stroke-width="2.5" fill="none"/>
+    <path d="M20 3L23.5 18.5L35 29L20 22.5L5 29L16.5 18.5L20 3Z" fill="#333333"/>
+    <text x="48" y="27" font-family="system-ui, -apple-system, serif" font-size="18" font-weight="700" fill="#111111" letter-spacing="1">Mercedes-Benz</text>
+  </g>
+</svg>

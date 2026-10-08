@@ -1,0 +1,746 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Fundación Pescar Argentina | Formación para el Empleo y Desarrollo de Futuro</title>
+  <meta name="description" content="Fundación Pescar forma a jóvenes y personas en situación de vulnerabilidad socioeconómica para su inserción laboral efectiva y construcción de un proyecto de vida sostenible." />
+  
+  <link rel="icon" type="image/png" href="assets/images/favicon-64x64px.png" />
+  <link rel="apple-touch-icon" href="assets/images/favicon-180x180px-06.png" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+
+  <!-- Top Announcement Bar -->
+  <aside class="announcement-bar" aria-label="Anuncios y novedades">
+    <div class="container announcement-inner">
+      <div style="display: flex; align-items: center; gap: 1.25rem;">
+        <span>🚀 <strong>Convocatorias 2026:</strong> Inscripciones abiertas a Programas de Formación</span>
+        <span>📍 Presencia federal en 9 provincias</span>
+      </div>
+      <div>
+        <a href="https://linktr.ee/fundacionpescar" target="_blank" rel="noopener noreferrer" class="announcement-link">
+          Postulate a las convocatorias abiertas en Linktree &rarr;
+        </a>
+      </div>
+    </div>
+  </aside>
+
+  <!-- Site Header -->
+  <header class="site-header">
+    <div class="container">
+      <nav class="navbar" aria-label="Navegación principal">
+        <a href="index.html" class="brand-logo-link" aria-label="Inicio Fundación Pescar">
+          <img src="assets/images/Logo-Pescar-2021-02.png" alt="Fundación Pescar Argentina" class="brand-logo-img" />
+        </a>
+
+        <ul class="nav-menu">
+          <li><a href="index.html" class="nav-link active">Inicio</a></li>
+          <li><a href="quienes-somos.html" class="nav-link">Quiénes Somos</a></li>
+          <li><a href="programas.html" class="nav-link">Programas</a></li>
+          <li><a href="estudiantes.html" class="nav-link">Estudiantes</a></li>
+          <li><a href="empresas.html" class="nav-link">Empresas</a></li>
+          <li><a href="contrata-egresados.html" class="nav-link">Contratá Egresados</a></li>
+          <li><a href="contacto.html" class="nav-link">Contacto</a></li>
+        </ul>
+
+        <div class="nav-actions">
+          <div class="audience-pills" role="tablist">
+            <a href="estudiantes.html" class="audience-pill active">Estudiantes</a>
+            <a href="empresas.html" class="audience-pill">Empresas</a>
+          </div>
+          <a href="contacto.html" class="btn btn-accent btn-sm btn-nav">Contactanos</a>
+          
+          <button class="mobile-toggle" aria-label="Abrir menú">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>
+          </button>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Mobile Drawer -->
+  <div class="drawer-overlay" aria-hidden="true"></div>
+  <aside class="mobile-drawer" aria-label="Menú móvil">
+    <div class="drawer-header">
+      <img src="assets/images/Logo-Pescar-2021-02.png" alt="Pescar" style="height: 38px;" />
+      <button class="drawer-close" aria-label="Cerrar menú">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+      </button>
+    </div>
+    <div class="drawer-links">
+      <a href="index.html" class="drawer-link active">Inicio</a>
+      <a href="quienes-somos.html" class="drawer-link">Quiénes Somos</a>
+      <a href="programas.html" class="drawer-link">Programas de Formación</a>
+      <a href="estudiantes.html" class="drawer-link">Para Estudiantes</a>
+      <a href="empresas.html" class="drawer-link">Para Empresas</a>
+      <a href="contrata-egresados.html" class="drawer-link">Contratá Egresados</a>
+      <a href="contacto.html" class="drawer-link">Contacto</a>
+    </div>
+    <div style="margin-top: auto; display: flex; flex-direction: column; gap: 0.75rem;">
+      <a href="estudiantes.html" class="btn btn-primary" style="width: 100%;">Quiero Capacitarme</a>
+      <a href="empresas.html" class="btn btn-accent" style="width: 100%;">Sumá tu Empresa</a>
+    </div>
+  </aside>
+
+  <main>
+    <!-- 1. HERO SECTION WITH FULL PHOTO BACKGROUND -->
+    <section class="hero-section bg-hero-photo" aria-labelledby="hero-heading">
+      <div class="hero-glow" aria-hidden="true"></div>
+      <div class="hero-glow-cyan" aria-hidden="true"></div>
+      
+      <div class="container">
+        <div class="hero-grid">
+          <div class="hero-content">
+            <span class="badge-tag badge-white" style="background: rgba(255, 255, 255, 0.15); backdrop-filter: blur(8px); border: 1px solid rgba(255, 255, 255, 0.3);">
+              🌟 Educamos para el Trabajo • Desde 2003
+            </span>
+            <h1 id="hero-heading" class="hero-title">
+              Transformamos <br />
+              <span class="text-highlight">Presente y Futuro</span>
+            </h1>
+            <p class="hero-subtitle">
+              Formamos a jóvenes y adultos en situación de vulnerabilidad socioeconómica mediante programas de formación intensiva, potenciando habilidades socioemocionales, técnicas y digitales para una inserción laboral real y un proyecto de vida sostenible.
+            </p>
+            
+            <div class="hero-cta-group">
+              <a href="https://linktr.ee/fundacionpescar" target="_blank" rel="noopener noreferrer" class="btn btn-accent btn-lg">
+                Convocatorias Abiertas
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+              </a>
+              <a href="empresas.html" class="btn btn-outline-white btn-lg">
+                Sumá tu Empresa
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"></polyline></svg>
+              </a>
+            </div>
+
+            <div style="display: flex; gap: 1.5rem; flex-wrap: wrap; padding-top: 1rem; border-top: 1px solid rgba(255, 255, 255, 0.15); font-size: 0.8rem; color: rgba(255, 255, 255, 0.85);">
+              <span>✓ Extensión Universitaria USAL</span>
+              <span>✓ Medición de Impacto con Deloitte</span>
+              <span>✓ Bolsa de Trabajo Gratuita</span>
+            </div>
+          </div>
+
+          <div style="position: relative;">
+            <div class="hero-image-card">
+              <img src="assets/images/Home-slider1.jpg" alt="Estudiantes en el aula de capacitación Pescar" class="hero-image" />
+            </div>
+            
+            <div class="hero-floating-card">
+              <div style="background: var(--color-pescar-orange-50); padding: 0.6rem; border-radius: var(--radius-md); color: var(--color-pescar-orange);">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
+              </div>
+              <div>
+                <div style="font-weight: 800; font-size: 1.15rem; color: var(--color-pescar-blue); font-family: var(--font-display);">81% Inserción</div>
+                <div style="font-size: 0.75rem; color: var(--color-slate-600);">Tasa efectiva de empleo formal en empresas</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 2. LIVE IMPACT STATS WITH FULL PHOTO BACKGROUND -->
+    <section class="section section-stats-bg" aria-labelledby="stats-heading">
+      <div class="container">
+        <div class="section-header" style="text-align: center; max-width: 750px; margin: 0 auto var(--space-12);">
+          <span class="badge-tag" style="background: rgba(255, 255, 255, 0.2); color: white; border: 1px solid rgba(255, 255, 255, 0.3);">Métricas de Impacto</span>
+          <h2 id="stats-heading" class="section-title" style="color: white; margin-top: 0.5rem;">Resultados que transforman vidas</h2>
+          <p class="section-subtitle" style="color: rgba(255, 255, 255, 0.88);">Más de 20 años de trayectoria articulando el sector público, privado y social.</p>
+        </div>
+
+        <div class="stats-grid">
+          <div class="stat-card reveal-on-scroll">
+            <div class="stat-number accent" data-counter-target="107084" data-counter-prefix="+">0</div>
+            <div class="stat-label">Beneficiarios Alcanzados (2003 - 2026)</div>
+          </div>
+
+          <div class="stat-card reveal-on-scroll">
+            <div class="stat-number" data-counter-target="47" data-counter-prefix="">0</div>
+            <div class="stat-label">Programas de Formación Intensiva en 9 Provincias</div>
+          </div>
+
+          <div class="stat-card reveal-on-scroll">
+            <div class="stat-number accent" data-counter-target="81" data-counter-suffix="%">0%</div>
+            <div class="stat-label">Inserción Laboral Efectiva</div>
+          </div>
+
+          <div class="stat-card reveal-on-scroll">
+            <div class="stat-number" data-counter-target="92" data-counter-suffix="%">0%</div>
+            <div class="stat-label">Terminalidad Escolar y Graduación</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 3. DUAL PATHWAYS WITH FULL PHOTO BACKGROUND -->
+    <section class="section section-pathways-bg" aria-labelledby="pathways-heading">
+      <div class="container">
+        <div class="section-header" style="text-align: center; max-width: 750px; margin: 0 auto var(--space-12);">
+          <span class="badge-tag badge-accent">Caminos de Participación</span>
+          <h2 id="pathways-heading" class="section-title" style="color: white;">¿Cómo te gustaría conectar con Pescar?</h2>
+          <p class="section-subtitle" style="color: rgba(255, 255, 255, 0.9);">Propuestas diseñadas para quienes buscan capacitarse y para empresas que generan empleo.</p>
+        </div>
+
+        <div class="pathway-grid">
+          <!-- Student Card -->
+          <article class="pathway-card student reveal-on-scroll" style="backdrop-filter: blur(12px); border: 1px solid rgba(255, 255, 255, 0.25);">
+            <div>
+              <span class="pathway-badge">Para Jóvenes & Adultos</span>
+              <h3 class="pathway-title">Quiero Capacitarme</h3>
+              <p class="pathway-desc">
+                Desarrollá habilidades socioemocionales, técnicas y digitales en cursos gratuitos certificados por la Universidad del Salvador. Accedé a tutorías, becas y bolsa de empleo activa.
+              </p>
+            </div>
+            <a href="https://linktr.ee/fundacionpescar" target="_blank" rel="noopener noreferrer" class="btn btn-white btn-lg" style="width: fit-content;">
+              Ver Convocatorias en Linktree &rarr;
+            </a>
+          </article>
+
+          <!-- Company Card -->
+          <article class="pathway-card company reveal-on-scroll" style="backdrop-filter: blur(12px); border: 1px solid rgba(255, 255, 255, 0.25);">
+            <div>
+              <span class="pathway-badge">Para Empresas & Aliados</span>
+              <h3 class="pathway-title">Sumá tu Empresa</h3>
+              <p class="pathway-desc">
+                Abrí un Centro Pescar in-company, sumá voluntariado corporativo y mentoring, incorporá egresados de alta motivación o canalizá tus iniciativas de RSE y cumplimiento de los ODS.
+              </p>
+            </div>
+            <div style="display: flex; gap: 0.75rem; flex-wrap: wrap;">
+              <a href="empresas.html" class="btn btn-accent btn-lg">Conocé la Propuesta &rarr;</a>
+              <a href="contrata-egresados.html" class="btn btn-outline-white btn-lg">Contratá Egresados</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- 4. PROGRAM CATALOG EXPLORER WITH PHOTO BACKGROUND -->
+    <section class="section section-programs-bg" aria-labelledby="programs-heading">
+      <div class="container">
+        <div class="section-header">
+          <span class="badge-tag">Nuestros Programas</span>
+          <h2 id="programs-heading" class="section-title">Formación orientada al mercado laboral real</h2>
+          <p class="section-subtitle">Capacitaciones técnicas, habilidades blandas y competencias digitales.</p>
+        </div>
+
+        <div class="filter-container" role="tablist">
+          <button class="filter-btn active" data-filter="all">Todos</button>
+          <button class="filter-btn" data-filter="pfi">Formación Intensiva (PFI)</button>
+          <button class="filter-btn" data-filter="talleres">Talleres & Escuelas</button>
+          <button class="filter-btn" data-filter="mujeres">Mujeres & Empoderamiento</button>
+        </div>
+
+        <div class="programs-grid">
+          <!-- Centros Pescar -->
+          <article class="program-card reveal-on-scroll" data-category="pfi jovenes">
+            <div class="program-image-wrap">
+              <img src="assets/images/Home-programas-CentroPescar1.jpg" alt="Centros Pescar" class="program-image" loading="lazy" />
+              <span class="program-category-badge">PFI • Jóvenes</span>
+            </div>
+            <div class="program-body">
+              <h3 class="program-title">Centros Pescar</h3>
+              <p class="program-desc">Cursos de 4 a 9 meses junto a empresas socias con formación en programación, administración, atención al cliente y certificación USAL.</p>
+              <div class="program-meta">
+                <span class="program-meta-item">⏱ 4 a 9 meses</span>
+                <span class="program-meta-item">📍 Presencial / Virtual</span>
+                <span class="program-meta-item">🎓 Certificado USAL</span>
+              </div>
+              <button class="btn btn-primary" data-program-trigger="centros-pescar" style="width: 100%;">Ver Programa Completo</button>
+            </div>
+          </article>
+
+          <!-- Belleza por un Futuro -->
+          <article class="program-card reveal-on-scroll" data-category="pfi mujeres">
+            <div class="program-image-wrap">
+              <img src="assets/images/Home-programas-3BXF.jpg" alt="Belleza por un Futuro" class="program-image" loading="lazy" />
+              <span class="program-category-badge">Fondation L'Oréal</span>
+            </div>
+            <div class="program-body">
+              <h3 class="program-title">Belleza por un Futuro</h3>
+              <p class="program-desc">Peluquería, maquillaje y estética profesional con kits entregados a domicilio y 2 años de seguimiento e impacto Deloitte.</p>
+              <div class="program-meta">
+                <span class="program-meta-item">👥 +2.097 graduados</span>
+                <span class="program-meta-item">📦 Kits a domicilio</span>
+                <span class="program-meta-item">📍 Virtual / Presencial</span>
+              </div>
+              <button class="btn btn-primary" data-program-trigger="belleza-por-un-futuro" style="width: 100%;">Ver Programa Completo</button>
+            </div>
+          </article>
+
+          <!-- Mujeres Protagonistas -->
+          <article class="program-card reveal-on-scroll" data-category="pfi mujeres">
+            <div class="program-image-wrap">
+              <img src="assets/images/ProtagonistaPescar-800x755.jpg" alt="Mujeres Protagonistas" class="program-image" loading="lazy" />
+              <span class="program-category-badge">PFI • Mujeres</span>
+            </div>
+            <div class="program-body">
+              <h3 class="program-title">Mujeres Protagonistas</h3>
+              <p class="program-desc">Habilidades socioemocionales, marketing personal, atención al cliente y herramientas digitales para el empoderamiento y autonomía.</p>
+              <div class="program-meta">
+                <span class="program-meta-item">⏱ 5 meses (9h/sem)</span>
+                <span class="program-meta-item">💻 Híbrido</span>
+                <span class="program-meta-item">🚀 Inserción Laboral</span>
+              </div>
+              <button class="btn btn-primary" data-program-trigger="mujeres-protagonistas" style="width: 100%;">Ver Programa Completo</button>
+            </div>
+          </article>
+
+          <!-- Mi Futuro Hoy -->
+          <article class="program-card reveal-on-scroll" data-category="talleres jovenes">
+            <div class="program-image-wrap">
+              <img src="assets/images/MiFuturoHoytalleres-600x480.jpg" alt="Mi Futuro Hoy" class="program-image" loading="lazy" />
+              <span class="program-category-badge">Secundarias</span>
+            </div>
+            <div class="program-body">
+              <h3 class="program-title">Mi Futuro Hoy</h3>
+              <p class="program-desc">12 encuentros grupales en escuelas secundarias para acompañar a los jóvenes en su transición vocacional y preparación para el empleo.</p>
+              <div class="program-meta">
+                <span class="program-meta-item">🏫 12 Encuentros</span>
+                <span class="program-meta-item">🎯 Orientación Vocacional</span>
+                <span class="program-meta-item">🤝 Tutorías</span>
+              </div>
+              <button class="btn btn-primary" data-program-trigger="mi-futuro-hoy" style="width: 100%;">Ver Programa Completo</button>
+            </div>
+          </article>
+
+          <!-- MFMT + Educación Financiera -->
+          <article class="program-card reveal-on-scroll" data-category="talleres">
+            <div class="program-image-wrap">
+              <img src="assets/images/MFMTTaller-800x640.jpg" alt="MFMT Educación Financiera" class="program-image" loading="lazy" />
+              <span class="program-category-badge">Finanzas & Empleo</span>
+            </div>
+            <div class="program-body">
+              <h3 class="program-title">MFMT + Educación Financiera</h3>
+              <p class="program-desc">Talleres para jóvenes y adultos que brindan preparación para el mundo laboral y herramientas de presupuesto y ahorro personal.</p>
+              <div class="program-meta">
+                <span class="program-meta-item">💡 Educación Financiera</span>
+                <span class="program-meta-item">📝 CV y Entrevistas</span>
+                <span class="program-meta-item">📍 Modular</span>
+              </div>
+              <button class="btn btn-primary" data-program-trigger="mfmt-finanzas" style="width: 100%;">Ver Programa Completo</button>
+            </div>
+          </article>
+
+          <!-- Stand Up contra el acoso callejero -->
+          <article class="program-card reveal-on-scroll" data-category="talleres mujeres">
+            <div class="program-image-wrap">
+              <img src="assets/images/StandupHome-600x480.jpg" alt="Stand Up contra el acoso callejero" class="program-image" loading="lazy" />
+              <span class="program-category-badge">L'Oréal & Right To Be</span>
+            </div>
+            <div class="program-body">
+              <h3 class="program-title">Stand Up Acoso Callejero</h3>
+              <p class="program-desc">Iniciativa internacional desarrollada en Argentina por Pescar. Capacitación en la metodología 5D para actuar de forma segura.</p>
+              <div class="program-meta">
+                <span class="program-meta-item">👥 +50.000 capacitados</span>
+                <span class="program-meta-item">⏱ 1 hora</span>
+                <span class="program-meta-item">✨ Gratuito</span>
+              </div>
+              <button class="btn btn-primary" data-program-trigger="stand-up" style="width: 100%;">Ver Programa Completo</button>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- 6 INSTITUTIONAL VALUE PROPOSITIONS -->
+    <section class="section" aria-labelledby="why-pescar-heading">
+      <div class="container">
+        <div class="section-header">
+          <span class="badge-tag">Pilares Institucionales</span>
+          <h2 id="why-pescar-heading" class="section-title">Por qué trabajar con nosotros</h2>
+          <p class="section-subtitle">Un ecosistema diseñado para maximizar el impacto social y la inserción laboral.</p>
+        </div>
+
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: var(--space-6);">
+          <div class="card card-primary-border reveal-on-scroll">
+            <div style="font-size: 2rem; margin-bottom: 0.5rem;">💻</div>
+            <h4>Tecnología Aplicada</h4>
+            <p style="font-size: 0.875rem;">Integración con herramientas tecnológicas y habilidades digitales de alta demanda laboral.</p>
+          </div>
+          <div class="card card-accent-border reveal-on-scroll">
+            <div style="font-size: 2rem; margin-bottom: 0.5rem;">🎓</div>
+            <h4>Certificación Universitaria</h4>
+            <p style="font-size: 0.875rem;">Trayectos acreditados formalmente como cursos de extensión por la Universidad del Salvador.</p>
+          </div>
+          <div class="card card-primary-border reveal-on-scroll">
+            <div style="font-size: 2rem; margin-bottom: 0.5rem;">🎯</div>
+            <h4>Selección de Beneficiarios</h4>
+            <p style="font-size: 0.875rem;">Proceso de admisión riguroso para asegurar que cada oportunidad llegue a quienes más lo necesitan.</p>
+          </div>
+          <div class="card card-accent-border reveal-on-scroll">
+            <div style="font-size: 2rem; margin-bottom: 0.5rem;">🤝</div>
+            <h4>Comunidad Alumni</h4>
+            <p style="font-size: 0.875rem;">Seguimiento continuo a 1, 2 y 5 años con intermediación laboral gratuita, becas y tutorías.</p>
+          </div>
+          <div class="card card-primary-border reveal-on-scroll">
+            <div style="font-size: 2rem; margin-bottom: 0.5rem;">⚙️</div>
+            <h4>Flexibilidad & Co-Diseño</h4>
+            <p style="font-size: 0.875rem;">Adaptamos la metodología pedagógica a las metas de sostenibilidad y necesidades de cada aliado.</p>
+          </div>
+          <div class="card card-accent-border reveal-on-scroll">
+            <div style="font-size: 2rem; margin-bottom: 0.5rem;">🌟</div>
+            <h4>Integración Corporativa</h4>
+            <p style="font-size: 0.875rem;">Participación activa de colaboradores como mentores y voluntarios, transformando la cultura interna.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 5. CANDIDATE TALENT POOL PREVIEW WITH PHOTO BACKGROUND -->
+    <section class="section section-candidates-bg" aria-labelledby="talent-pool-heading">
+      <div class="container">
+        <div class="section-header" style="text-align: center; max-width: 750px; margin: 0 auto var(--space-12);">
+          <span class="badge-tag badge-accent">Bolsa de Empleo Gratuita</span>
+          <h2 id="talent-pool-heading" class="section-title">Perfiles Calificados Listos para Sumarse</h2>
+          <p class="section-subtitle">Conectamos a selectores y equipos de RRHH con egresados verificados de alta motivación.</p>
+        </div>
+
+        <div class="candidate-grid">
+          <!-- Candidate 1 -->
+          <div class="candidate-card reveal-on-scroll">
+            <span class="candidate-badge">✓ Verificado Pescar</span>
+            <span class="candidate-code">PES-2025-DEV-08</span>
+            <h4 class="candidate-title">Desarrollo de Software & QA</h4>
+            <div class="candidate-origin">PFI Tecnología & Cloud • Extensión USAL</div>
+            <div class="skills-tags">
+              <span class="skill-tag">JavaScript</span>
+              <span class="skill-tag">TypeScript</span>
+              <span class="skill-tag">React / Node</span>
+              <span class="skill-tag">SQL</span>
+              <span class="skill-tag">Scrum</span>
+            </div>
+          </div>
+
+          <!-- Candidate 2 -->
+          <div class="candidate-card reveal-on-scroll">
+            <span class="candidate-badge">✓ Verificado Pescar</span>
+            <span class="candidate-code">PES-2025-FIN-14</span>
+            <h4 class="candidate-title">Administración & Finanzas</h4>
+            <div class="candidate-origin">Centro Pescar Banca & Servicios • Extensión USAL</div>
+            <div class="skills-tags">
+              <span class="skill-tag">Excel Avanzado</span>
+              <span class="skill-tag">Conciliaciones</span>
+              <span class="skill-tag">Power BI</span>
+              <span class="skill-tag">Facturación</span>
+            </div>
+          </div>
+
+          <!-- Candidate 3 -->
+          <div class="candidate-card reveal-on-scroll">
+            <span class="candidate-badge">✓ Verificado Pescar</span>
+            <span class="candidate-code">PES-2025-LOG-22</span>
+            <h4 class="candidate-title">Logística & Atención al Cliente</h4>
+            <div class="candidate-origin">Centro Pescar Retail & Operaciones • Extensión USAL</div>
+            <div class="skills-tags">
+              <span class="skill-tag">Control de Stock</span>
+              <span class="skill-tag">Sistemas WMS</span>
+              <span class="skill-tag">Customer Service</span>
+              <span class="skill-tag">Office 365</span>
+            </div>
+          </div>
+
+          <!-- Candidate 4 -->
+          <div class="candidate-card reveal-on-scroll">
+            <span class="candidate-badge">✓ Verificado Pescar</span>
+            <span class="candidate-code">PES-2025-EST-31</span>
+            <h4 class="candidate-title">Estética & Gestión de Salón</h4>
+            <div class="candidate-origin">Belleza por un Futuro L'Oréal • Certificación Oficial</div>
+            <div class="skills-tags">
+              <span class="skill-tag">Colorimetría</span>
+              <span class="skill-tag">Corte Profesional</span>
+              <span class="skill-tag">Maquillaje</span>
+              <span class="skill-tag">Fidelización</span>
+            </div>
+          </div>
+        </div>
+
+        <div style="text-align: center; margin-top: var(--space-8);">
+          <a href="contrata-egresados.html" class="btn btn-accent btn-lg">
+            Solicitar Candidatos para tu Búsqueda &rarr;
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- 6. AUTO-ROTATING ALUMNI STORIES CAROUSEL WITH FULL PHOTO BACKGROUND -->
+    <section class="section section-testimonials-bg" aria-labelledby="stories-heading">
+      <div class="container">
+        <div class="section-header" style="text-align: center; max-width: 750px; margin: 0 auto var(--space-12);">
+          <span class="badge-tag badge-accent">Historias Reales & Comunidad Alumni</span>
+          <h2 id="stories-heading" class="section-title" style="color: white;">Proyectos de vida transformados</h2>
+          <p class="section-subtitle" style="color: rgba(255, 255, 255, 0.88);">Conocé el testimonio directo de quienes pasaron por nuestras aulas.</p>
+        </div>
+
+        <div class="alumni-carousel-wrapper">
+          <div class="alumni-slides-container">
+            <!-- Slide 1: Ayrana Oropeza -->
+            <div class="alumni-slide" style="background: rgba(255, 255, 255, 0.12); backdrop-filter: blur(16px); border: 1px solid rgba(255, 255, 255, 0.2); color: white;">
+              <p class="alumni-quote" style="color: rgba(255, 255, 255, 0.95);">
+                “Pescar cambió mi vida. Es una oportunidad para encaminar la vida laboral y en lo personal. Me dio todas las herramientas y una formación técnica de calidad. Postulé para trabajar en JP Morgan y me preparé con lo aprendido a lo largo del Centro Pescar. El paso por Pescar es un salto en la carrera de cualquiera.”
+              </p>
+              <div class="alumni-footer">
+                <div class="alumni-avatar">AO</div>
+                <div>
+                  <div style="font-weight: 700; color: white;">Ayrana Oropeza</div>
+                  <div style="font-size: 0.8rem; color: rgba(255, 255, 255, 0.8);">Egresada Centro Pescar JP Morgan 2020 • Analista</div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Slide 2: Mónica Lopez -->
+            <div class="alumni-slide" style="background: rgba(255, 255, 255, 0.12); backdrop-filter: blur(16px); border: 1px solid rgba(255, 255, 255, 0.2); color: white;">
+              <p class="alumni-quote" style="color: rgba(255, 255, 255, 0.95);">
+                “Siempre deseé ser peluquera pero nunca había podido estudiar. Me anoté con todos mis miedos y pensé que no iba a quedar, pero quedé. De a poco fuimos armando un espacio con mis hijas y hoy tenemos un salón de belleza en Quilmes que se llama Eno Self Care. Amo lo que hago y me encanta poder vivir de esto.”
+              </p>
+              <div class="alumni-footer">
+                <div class="alumni-avatar">ML</div>
+                <div>
+                  <div style="font-weight: 700; color: white;">Mónica Lopez</div>
+                  <div style="font-size: 0.8rem; color: rgba(255, 255, 255, 0.8);">Egresada Belleza por un Futuro 2020 • Emprendedora</div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Slide 3: Belén Duclós -->
+            <div class="alumni-slide" style="background: rgba(255, 255, 255, 0.12); backdrop-filter: blur(16px); border: 1px solid rgba(255, 255, 255, 0.2); color: white;">
+              <p class="alumni-quote" style="color: rgba(255, 255, 255, 0.95);">
+                “Siempre que alguien ve mi CV me pregunta por este curso: se sorprenden de la cantidad de horas dedicadas a capacitarme. Belleza por un Futuro fue la puerta abierta a cumplir mis sueños; te ayudan a sacar lo mejor de vos. Ahora sigo estudiando Cosmetología en la UBA.”
+              </p>
+              <div class="alumni-footer">
+                <div class="alumni-avatar">BD</div>
+                <div>
+                  <div style="font-weight: 700; color: white;">Belén Duclós</div>
+                  <div style="font-size: 0.8rem; color: rgba(255, 255, 255, 0.8);">Egresada Maquillaje 2017 • Estudiante Universitaria UBA</div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Slide 4: Laura Marolo -->
+            <div class="alumni-slide" style="background: rgba(255, 255, 255, 0.12); backdrop-filter: blur(16px); border: 1px solid rgba(255, 255, 255, 0.2); color: white;">
+              <p class="alumni-quote" style="color: rgba(255, 255, 255, 0.95);">
+                “Poniendo 'loreal' en redes me enteré de Belleza por un Futuro. Mientras cursaba atendía mi emprendimiento de panadería: silenciaba el micrófono, entregaba el pan y seguía en clase. Un día me animé, cerré la panadería e invertí para convertirla en un salón.”
+              </p>
+              <div class="alumni-footer">
+                <div class="alumni-avatar">LM</div>
+                <div>
+                  <div style="font-weight: 700; color: white;">Laura Marolo</div>
+                  <div style="font-size: 0.8rem; color: rgba(255, 255, 255, 0.8);">Egresada Peluquería 2020 • Dueña de Salón</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="alumni-carousel-dots">
+            <button class="carousel-dot active" aria-label="Slide 1"></button>
+            <button class="carousel-dot" aria-label="Slide 2"></button>
+            <button class="carousel-dot" aria-label="Slide 3"></button>
+            <button class="carousel-dot" aria-label="Slide 4"></button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 7. FLOATING 2-ROW INFINITE HORIZONTAL MARQUEE CAROUSEL WITH PHOTO BACKGROUND -->
+    <section class="section section-partners-bg" aria-labelledby="partners-title">
+      <div class="container">
+        <div class="section-header" style="text-align: center; max-width: 750px; margin: 0 auto var(--space-8);">
+          <span class="badge-tag">Ecosistema Aliado</span>
+          <h2 id="partners-title" class="section-title">Empresas que nos Acompañan</h2>
+          <p class="section-subtitle">Alianzas corporativas y académicas que hacen posible la formación y el empleo.</p>
+        </div>
+
+        <div class="marquee-container">
+          <!-- Row 1 -->
+          <div class="marquee-track track-1">
+            <div class="partner-pill"><span>J.P. Morgan</span><span class="partner-pill-badge">Banca & Finanzas</span></div>
+            <div class="partner-pill"><span>L'Oréal Argentina</span><span class="partner-pill-badge">Belleza & RSE</span></div>
+            <div class="partner-pill"><span>Accenture</span><span class="partner-pill-badge">Consultoría</span></div>
+            <div class="partner-pill"><span>Santander</span><span class="partner-pill-badge">Finanzas</span></div>
+            <div class="partner-pill"><span>Mercedes-Benz</span><span class="partner-pill-badge">Industria</span></div>
+            <div class="partner-pill"><span>Google Cloud</span><span class="partner-pill-badge">Tecnología</span></div>
+            <div class="partner-pill"><span>BASF</span><span class="partner-pill-badge">Química & Agro</span></div>
+            <div class="partner-pill"><span>Universidad del Salvador</span><span class="partner-pill-badge">Académico</span></div>
+            <!-- Duplicate for infinite loop -->
+            <div class="partner-pill"><span>J.P. Morgan</span><span class="partner-pill-badge">Banca & Finanzas</span></div>
+            <div class="partner-pill"><span>L'Oréal Argentina</span><span class="partner-pill-badge">Belleza & RSE</span></div>
+            <div class="partner-pill"><span>Accenture</span><span class="partner-pill-badge">Consultoría</span></div>
+            <div class="partner-pill"><span>Santander</span><span class="partner-pill-badge">Finanzas</span></div>
+            <div class="partner-pill"><span>Mercedes-Benz</span><span class="partner-pill-badge">Industria</span></div>
+            <div class="partner-pill"><span>Google Cloud</span><span class="partner-pill-badge">Tecnología</span></div>
+            <div class="partner-pill"><span>BASF</span><span class="partner-pill-badge">Química & Agro</span></div>
+            <div class="partner-pill"><span>Universidad del Salvador</span><span class="partner-pill-badge">Académico</span></div>
+          </div>
+
+          <!-- Row 2 -->
+          <div class="marquee-track track-2">
+            <div class="partner-pill"><span>Globant</span><span class="partner-pill-badge">Software</span></div>
+            <div class="partner-pill"><span>Mercado Libre</span><span class="partner-pill-badge">E-Commerce</span></div>
+            <div class="partner-pill"><span>Microsoft</span><span class="partner-pill-badge">Tecnología</span></div>
+            <div class="partner-pill"><span>Toyota</span><span class="partner-pill-badge">Automotriz</span></div>
+            <div class="partner-pill"><span>Deloitte</span><span class="partner-pill-badge">Auditoría</span></div>
+            <div class="partner-pill"><span>Laboratorios Andrómaco</span><span class="partner-pill-badge">Salud</span></div>
+            <div class="partner-pill"><span>Banco Nación</span><span class="partner-pill-badge">Banca</span></div>
+            <div class="partner-pill"><span>Fundación Bemberg</span><span class="partner-pill-badge">Becas</span></div>
+            <!-- Duplicate for infinite loop -->
+            <div class="partner-pill"><span>Globant</span><span class="partner-pill-badge">Software</span></div>
+            <div class="partner-pill"><span>Mercado Libre</span><span class="partner-pill-badge">E-Commerce</span></div>
+            <div class="partner-pill"><span>Microsoft</span><span class="partner-pill-badge">Tecnología</span></div>
+            <div class="partner-pill"><span>Toyota</span><span class="partner-pill-badge">Automotriz</span></div>
+            <div class="partner-pill"><span>Deloitte</span><span class="partner-pill-badge">Auditoría</span></div>
+            <div class="partner-pill"><span>Laboratorios Andrómaco</span><span class="partner-pill-badge">Salud</span></div>
+            <div class="partner-pill"><span>Banco Nación</span><span class="partner-pill-badge">Banca</span></div>
+            <div class="partner-pill"><span>Fundación Bemberg</span><span class="partner-pill-badge">Becas</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 8. ODS GOALS WITH PHOTO BACKGROUND -->
+    <section class="section section-ods-bg" aria-labelledby="ods-title">
+      <div class="container">
+        <div class="section-header" style="text-align: center; max-width: 750px; margin: 0 auto var(--space-10);">
+          <span class="badge-tag badge-white" style="background: rgba(255, 255, 255, 0.2); color: white; border: 1px solid rgba(255, 255, 255, 0.3);">Compromiso ONU 2030</span>
+          <h2 id="ods-title" class="section-title" style="color: white; margin-top: 0.5rem;">Impacto en 6 Objetivos de Desarrollo Sostenible</h2>
+          <p class="section-subtitle" style="color: rgba(255, 255, 255, 0.88);">Acciones concretas para la inclusión y el trabajo decente.</p>
+        </div>
+
+        <div class="ods-grid reveal-on-scroll">
+          <div class="ods-card"><span class="ods-number" style="color: #ff9d42;">ODS 1</span><span class="ods-name">Fin de la Pobreza</span></div>
+          <div class="ods-card"><span class="ods-number" style="color: #ff9d42;">ODS 4</span><span class="ods-name">Educación de Calidad</span></div>
+          <div class="ods-card"><span class="ods-number" style="color: #ff9d42;">ODS 5</span><span class="ods-name">Igualdad de Género</span></div>
+          <div class="ods-card"><span class="ods-number" style="color: #ff9d42;">ODS 8</span><span class="ods-name">Trabajo Decente & Crecimiento</span></div>
+          <div class="ods-card"><span class="ods-number" style="color: #ff9d42;">ODS 10</span><span class="ods-name">Reducción de Desigualdades</span></div>
+          <div class="ods-card"><span class="ods-number" style="color: #ff9d42;">ODS 17</span><span class="ods-name">Alianzas para Lograr Objetivos</span></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 9. CONTACT BANNER WITH FULL PHOTO BACKGROUND -->
+    <section class="section section-cta-bg">
+      <div class="container container-narrow">
+        <h2 style="color: var(--color-white); margin-bottom: 1rem; text-shadow: 0 2px 10px rgba(0,0,0,0.3);">¿Querés formar parte de la comunidad Pescar?</h2>
+        <p style="color: rgba(255, 255, 255, 0.95); font-size: 1.15rem; margin-bottom: 2rem;">
+          Tanto si querés formarte como si querés sumar a tu empresa a la red, te acompañamos en cada paso.
+        </p>
+        <div style="display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap;">
+          <a href="contacto.html" class="btn btn-white btn-lg">Contactanos Ahora &rarr;</a>
+          <a href="quienes-somos.html" class="btn btn-outline-white btn-lg">Conocé a Nuestro Equipo</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- PROGRAM MODAL -->
+  <div id="programModal" class="modal" role="dialog" aria-modal="true" aria-labelledby="modalProgramTitle">
+    <div class="modal-backdrop"></div>
+    <div class="modal-container">
+      <button class="modal-close" aria-label="Cerrar modal">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+      </button>
+      
+      <span id="modalProgramCategory" class="badge-tag badge-accent" style="margin-bottom: 0.5rem;"></span>
+      <h2 id="modalProgramTitle" style="font-size: 1.5rem; margin-bottom: 0.5rem; color: var(--color-pescar-blue);"></h2>
+      <p id="modalProgramTagline" style="font-weight: 600; color: var(--color-slate-600); margin-bottom: 1.25rem; font-size: 0.875rem;"></p>
+      
+      <div style="background: var(--color-slate-50); padding: 1rem 1.25rem; border-radius: var(--radius-md); border: 1px solid var(--color-slate-200); margin-bottom: 1.5rem;">
+        <p id="modalProgramDesc" style="font-size: 0.875rem; margin-bottom: 0;"></p>
+      </div>
+
+      <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; margin-bottom: 1.5rem;">
+        <div>
+          <div style="font-size: 0.75rem; font-weight: 700; color: var(--color-slate-500); text-transform: uppercase;">Duración</div>
+          <div id="modalProgramDuration" style="font-size: 0.875rem; font-weight: 600; color: var(--color-slate-800);"></div>
+        </div>
+        <div>
+          <div style="font-size: 0.75rem; font-weight: 700; color: var(--color-slate-500); text-transform: uppercase;">Modalidad</div>
+          <div id="modalProgramModality" style="font-size: 0.875rem; font-weight: 600; color: var(--color-slate-800);"></div>
+        </div>
+      </div>
+
+      <div style="margin-bottom: 1.5rem;">
+        <div style="font-size: 0.75rem; font-weight: 700; color: var(--color-slate-500); text-transform: uppercase; margin-bottom: 0.25rem;">Público Objetivo</div>
+        <div id="modalProgramTarget" style="font-size: 0.875rem; color: var(--color-slate-700);"></div>
+      </div>
+
+      <div style="margin-bottom: 1.5rem;">
+        <div style="font-size: 0.75rem; font-weight: 700; color: var(--color-slate-500); text-transform: uppercase; margin-bottom: 0.5rem;">Orientaciones Técnicas</div>
+        <ul id="modalProgramOrientations" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 0.5rem; font-size: 0.75rem; font-weight: 600; color: var(--color-pescar-blue);"></ul>
+      </div>
+
+      <div style="margin-bottom: 1.75rem;">
+        <div style="font-size: 0.75rem; font-weight: 700; color: var(--color-slate-500); text-transform: uppercase; margin-bottom: 0.5rem;">Aspectos Destacados</div>
+        <ul id="modalProgramFeatures" style="display: flex; flex-direction: column; gap: 0.4rem; font-size: 0.75rem; color: var(--color-slate-600);"></ul>
+      </div>
+
+      <div style="display: flex; gap: 0.75rem; justify-content: flex-end;">
+        <a href="contacto.html" class="btn btn-accent">Consultar por este programa</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- SITE FOOTER -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-quote-banner">
+        <blockquote class="footer-quote-text">
+          “Si quieres quitarle el hambre a un hombre, dale un pez; pero si quieres que no vuelva a tener hambre, enséñale a pescar.”
+        </blockquote>
+        <div class="footer-quote-author">— LAO TSE</div>
+      </div>
+
+      <div class="footer-grid">
+        <div>
+          <img src="assets/images/Logo-Pescar-2021-02.png" alt="Fundación Pescar" style="height: 48px; margin-bottom: 1rem; filter: brightness(0) invert(1);" />
+          <p style="font-size: 0.875rem; color: rgba(255, 255, 255, 0.8);">
+            Organización de la sociedad civil sin fines de lucro dedicada a formar a personas en situación de vulnerabilidad socioeconómica.
+          </p>
+        </div>
+
+        <div>
+          <h4 class="footer-col-title">Institucional</h4>
+          <ul class="footer-links">
+            <li><a href="index.html" class="footer-link">Inicio</a></li>
+            <li><a href="quienes-somos.html" class="footer-link">Quiénes Somos</a></li>
+            <li><a href="programas.html" class="footer-link">Programas</a></li>
+            <li><a href="estudiantes.html" class="footer-link">Estudiantes</a></li>
+            <li><a href="empresas.html" class="footer-link">Empresas</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="footer-col-title">Sede & Contacto</h4>
+          <ul class="footer-links">
+            <li style="color: rgba(255, 255, 255, 0.75); font-size: 0.875rem;">
+              Juncal 971, C1062ABG<br />
+              CABA, Argentina
+            </li>
+            <li><a href="mailto:pescar@pescar.org.ar" class="footer-link">pescar@pescar.org.ar</a></li>
+            <li><a href="mailto:egresados@pescar.org.ar" class="footer-link">egresados@pescar.org.ar</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="footer-col-title">Redes Oficiales</h4>
+          <div class="social-links">
+            <a href="https://instagram.com/fundacionpescar" target="_blank" rel="noopener noreferrer" class="social-btn" aria-label="Instagram">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path></svg>
+            </a>
+            <a href="https://www.linkedin.com/company/fundacionpescar/posts/" target="_blank" rel="noopener noreferrer" class="social-btn" aria-label="LinkedIn">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div>© 2003 - 2026 Fundación Pescar Argentina. Personería Jurídica IGJ N° 000524.</div>
+        <div>Presencia federal en 9 provincias.</div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

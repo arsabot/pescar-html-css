@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 50" fill="none">
+  <g transform="translate(0, 5)">
+    <!-- Santander Flame Icon -->
+    <path d="M20 38C8.954 38 0 29.046 0 18C0 12.5 4 6 12 0C10 8 16 12 18 12C20 12 22 9 22 7C26 11 31 16 31 22C31 26 29 29 27 31C28 29 28 26 27 24C25 28 23 31 20 38Z" fill="#EC0000"/>
+    <path d="M18 38C13 38 10 33 10 27C10 22 13 18 16 14C15 19 19 21 20 23C21 25 21 28 20 31C21 29 22 27 22 25C23 29 22 33 18 38Z" fill="#FFFFFF"/>
+    <!-- Santander Text -->
+    <text x="38" y="28" font-family="system-ui, -apple-system, sans-serif" font-size="26" font-weight="900" fill="#EC0000" letter-spacing="-0.5">Santander</text>
+  </g>
+</svg>
