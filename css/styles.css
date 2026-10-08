@@ -1084,16 +1084,32 @@ p:last-child {
 .partner-pill {
   background: var(--color-white);
   border: 1px solid var(--color-slate-200);
-  border-radius: var(--radius-lg);
-  padding: 0.85rem 1.5rem;
+  border-radius: var(--radius-full);
+  padding: 0.55rem 1.25rem 0.55rem 0.9rem;
   display: inline-flex;
   align-items: center;
-  gap: 0.75rem;
+  gap: 0.85rem;
   box-shadow: var(--shadow-sm);
   white-space: nowrap;
   font-weight: 700;
   color: var(--color-slate-800);
-  font-size: 0.95rem;
+  font-size: 0.92rem;
+  transition: transform var(--transition-fast), box-shadow var(--transition-fast);
+}
+
+.partner-pill:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-md);
+  border-color: var(--color-slate-300);
+}
+
+.partner-logo-img {
+  height: 26px;
+  width: auto;
+  max-width: 105px;
+  object-fit: contain;
+  display: inline-block;
+  vertical-align: middle;
 }
 
 .partner-pill-badge {
@@ -1244,11 +1260,16 @@ p:last-child {
 
 .ods-card {
   background: var(--color-white);
-  border-radius: var(--radius-lg);
-  padding: var(--space-5);
+  border-radius: var(--radius-xl);
+  padding: 1.5rem 1rem;
   border: 1px solid var(--color-slate-200);
   text-align: center;
   box-shadow: var(--shadow-sm);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.65rem;
   transition: all var(--transition-fast);
 }
 
@@ -1258,18 +1279,28 @@ p:last-child {
   border-color: var(--color-pescar-blue);
 }
 
-.ods-number {
+.ods-number-badge, .ods-number {
   font-family: var(--font-display);
   font-weight: 800;
-  font-size: 1.5rem;
-  color: var(--color-pescar-orange);
+  font-size: 1.1rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  background: var(--ods-color, var(--color-pescar-orange));
+  padding: 0.3rem 0.85rem;
+  border-radius: var(--radius-full);
+  letter-spacing: 0.04em;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
 
 .ods-name {
-  font-size: 0.75rem;
+  font-size: 0.85rem;
   font-weight: 700;
   color: var(--color-slate-800);
-  margin-top: 0.25rem;
+  display: block;
+  line-height: 1.35;
+  text-align: center;
 }
 
 /* Accordion */
@@ -1789,21 +1820,22 @@ p:last-child {
 }
 
 .section-ods-bg .ods-card {
-  background: rgba(255, 255, 255, 0.12);
-  backdrop-filter: blur(14px);
-  -webkit-backdrop-filter: blur(14px);
+  background: rgba(255, 255, 255, 0.10);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
   border: 1px solid rgba(255, 255, 255, 0.22);
   color: var(--color-white);
 }
 
 .section-ods-bg .ods-card .ods-name {
-  color: var(--color-white);
+  color: rgba(255, 255, 255, 0.95);
 }
 
 .section-ods-bg .ods-card:hover {
-  background: rgba(255, 255, 255, 0.2);
+  background: rgba(255, 255, 255, 0.18);
   border-color: rgba(255, 255, 255, 0.45);
-  transform: translateY(-4px);
+  transform: translateY(-6px);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.35);
 }
 
 /* 10. Call to Action Banner with Full Background Photo */
