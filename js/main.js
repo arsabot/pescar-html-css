@@ -102,10 +102,11 @@ function initCounters() {
           const updateCount = (currentTime) => {
             const elapsed = currentTime - startTime;
             const progress = Math.min(elapsed / duration, 1);
-            const easeProgress = progress === 1 ? 1 : 1 - Math.pow(2, -10 * progress);
-            const currentVal = target * easeProgress;
+            // Ease out cubic
+            const easeProgress = 1 - Math.pow(1 - progress, 3);
+            const currentVal = Math.round(target * easeProgress);
 
-            el.textContent = `${prefix}${Math.floor(currentVal).toLocaleString('es-AR')}${suffix}`;
+            el.textContent = `${prefix}${currentVal.toLocaleString('es-AR')}${suffix}`;
 
             if (progress < 1) {
               requestAnimationFrame(updateCount);
