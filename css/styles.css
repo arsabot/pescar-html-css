@@ -1694,6 +1694,55 @@ p:last-child {
   color: var(--color-pescar-orange, #fc7200);
 }
 
+.section-testimonials-bg .alumni-carousel-wrapper {
+  background: rgba(255, 255, 255, 0.10);
+  backdrop-filter: blur(24px);
+  -webkit-backdrop-filter: blur(24px);
+  border: 1px solid rgba(255, 255, 255, 0.22);
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
+  color: var(--color-white);
+}
+
+.section-testimonials-bg .alumni-quote {
+  color: rgba(255, 255, 255, 0.95);
+}
+
+.section-testimonials-bg .alumni-footer {
+  border-top: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.section-testimonials-bg .alumni-name {
+  font-weight: 700;
+  color: var(--color-white);
+  font-size: 1.05rem;
+}
+
+.section-testimonials-bg .alumni-role {
+  font-size: 0.825rem;
+  color: rgba(255, 255, 255, 0.82);
+}
+
+.section-testimonials-bg .alumni-avatar {
+  background: rgba(252, 114, 0, 0.22);
+  color: #ff9d42;
+  border: 1.5px solid rgba(252, 114, 0, 0.5);
+}
+
+.section-testimonials-bg .alumni-carousel-dots {
+  background: rgba(0, 0, 0, 0.25);
+  border-top: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+.section-testimonials-bg .carousel-dot {
+  background: rgba(255, 255, 255, 0.35);
+  cursor: pointer;
+}
+
+.section-testimonials-bg .carousel-dot.active {
+  background: var(--color-pescar-orange, #fc7200);
+  box-shadow: 0 0 12px rgba(252, 114, 0, 0.7);
+}
+
 /* 6. 6 Value Pillars Section with Full Background Photo */
 .section-pillars-bg {
   position: relative;
