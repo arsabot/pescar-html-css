@@ -13,6 +13,7 @@ document.addEventListener('DOMContentLoaded', () => {
   initAccordions();
   initForms();
   initAudienceSwitcher();
+  initPartnerLogos();
 });
 
 /* 1. HEADER SCROLL EFFECT */
@@ -488,3 +489,33 @@ function initAudienceSwitcher() {
     });
   });
 }
+
+/* 11. PARTNER LOGO FALLBACK */
+function initPartnerLogos() {
+  const pills = document.querySelectorAll('.partner-pill');
+  pills.forEach((pill) => {
+    const img = pill.querySelector('.partner-logo-img');
+    const nameEl = pill.querySelector('.partner-name');
+
+    if (!img) {
+      if (nameEl) nameEl.style.display = 'inline-block';
+      return;
+    }
+
+    const fallbackToText = () => {
+      img.style.display = 'none';
+      pill.classList.add('has-broken-logo');
+      if (nameEl) {
+        nameEl.style.display = 'inline-block';
+      }
+    };
+
+    img.addEventListener('error', fallbackToText);
+
+    // If image is already broken (cached failure or empty/404 on initial load)
+    if (img.complete && (img.naturalWidth === 0 || !img.src)) {
+      fallbackToText();
+    }
+  });
+}
+
