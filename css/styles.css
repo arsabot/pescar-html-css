@@ -1769,6 +1769,13 @@ p:last-child {
 }
 
 /* 11. Subpage Full Photo Heroes */
+.page-hero,
+.page-hero h1,
+.page-hero h2,
+.page-hero h3 {
+  color: var(--color-white);
+}
+
 .page-hero-quienes {
   background: linear-gradient(135deg, rgba(11, 16, 59, 0.92) 0%, rgba(33, 41, 143, 0.86) 60%, rgba(11, 16, 59, 0.95) 100%), 
               url('../assets/images/EquipoPescar-8999-web.jpg') center/cover no-repeat !important;
